@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+} /* CSS Reset */
+
+html {
+    font-size: 62.5%;
+} /* 1rem = 10px font trick */
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-container {
+    width: 500px;
+    height: fit-content;
+    
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 2rem;
+    margin: 0 auto;
+    color: white;
+}
+
+.profile-avatar {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+}
+.main-container p {
+    font-size: 1.4rem;
+}
+
+.main-header, .socials-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials-list {
+    list-style: none;
+}
+
+.socials-list li, .socials-list button {
+    text-align: center;
+    width: 90%;
+    padding: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
