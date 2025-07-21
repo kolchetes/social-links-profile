@@ -101,8 +101,8 @@ body {
 }
 
 .social-button:hover {
-   background-color: hsl(0, 0%, 30%);
-   color: cyan;
+   background-color: hsl(75, 94%, 57%);
+   color: black;
 }
 
 .attribution { 
